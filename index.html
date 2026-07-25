@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suwit Jawa</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <header>
+        <h1>SUWIT JAWA🎮</h1>
+        <div class="score-board">
+          <div class="score player">
+            <span class="label">Pemain</span>
+            <span id="player-score" class="number">0</span>
+          </div>
+          <div class="separator">VS</div>
+          <div class="score computer">
+            <span class="label">Komputer</span>
+            <span id="comp-score" class="number">0</span>
+          </div>
+        </div>
+      </header>
+
+      <main class="battle-field">
+        <div
+          id="player-choice-display"
+          class="choice-display player-choice-display"
+        ></div>
+        <div class="result-display">
+          <h2 id="game-result-text">-</h2>
+          <p id="game-result-info">Ayo, pilih jagoanmu!</p>
+        </div>
+        <div
+          id="comp-choice-display"
+          class="choice-display comp-choice-display"
+        ></div>
+      </main>
+
+      <footer class="player-controls">
+        <button class="choice-btn" data-choice="gajah">
+          <img src="./images/player-gajah.jpg" alt="Gajah (Jempol)" />
+        </button>
+        <button class="choice-btn" data-choice="manusia">
+          <img src="./images/player-manusia.jpg" alt="Manusia (Telunjuk)" />
+        </button>
+        <button class="choice-btn" data-choice="semut">
+          <img src="./images/player-semut.jpg" alt="Semut (Kelingking)" />
+        </button>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
