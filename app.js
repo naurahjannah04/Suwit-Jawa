@@ -95,11 +95,11 @@ const playGame = (playerChoice) => {
 
     // Beri warna pada hasil
     if (result === "MENANG") {
-      resultText.style.color = "#16a34a"; // Hijau
+      resultText.style.color = "#4ade80"; // Hijau
     } else if (result === "KALAH") {
-      resultText.style.color = "#dc2626"; // Merah
+      resultText.style.color = "#ff4d6d"; // Merah
     } else {
-      resultText.style.color = "#ca8a04"; // Kuning
+      resultText.style.color = "#facc15"; // Kuning
     }
 
     isPlaying = false; // Klik diaktifkan kembali
